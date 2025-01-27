@@ -44,6 +44,7 @@ pip install -r requirements.txt
 ```
 
 7. Umgebungsvariablen konfigurieren:
+   
 .env Datei erstellen und API Key hinzufügen (API_KEY=<API KEY hier einfügen>)
 
 API-Key eintragen
