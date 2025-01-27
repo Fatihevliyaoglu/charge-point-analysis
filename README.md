@@ -27,18 +27,25 @@ chargepoint-analysis/
 
 ## Installation
 1. Repository klonen:
+```
 git clone https://github.com/Fatihevliyaoglu/charge-point-analysis.git
+```
 
-2. Virtuelle Umgebung erstellen und aktivieren:
+3. Virtuelle Umgebung erstellen und aktivieren:
+```
 python -m venv venv
 source venv/bin/activate  # Unix/Mac
 .\venv\Scripts\activate  # Windows
+```
 
-3. Abhängigkeiten installieren:
+5. Abhängigkeiten installieren:
+```
 pip install -r requirements.txt
+```
 
-4. Umgebungsvariablen konfigurieren:
+7. Umgebungsvariablen konfigurieren:
 .env Datei erstellen und API Key hinzufügen (API_KEY=<API KEY hier einfügen>)
+
 API-Key eintragen
 
 ## Verwendung
@@ -49,4 +56,5 @@ from scripts.data_fetcher import fetch_data
 ```
 2. Analyse ausführen:
 Jupyter Notebook in notebooks/ öffnen
+
 Analyse-Code ausführen
