@@ -55,6 +55,7 @@ API-Key eintragen
 from scripts.data_fetcher import fetch_data
 ```
 2. Analyse ausführen:
+   
 Jupyter Notebook in notebooks/ öffnen
 
 Analyse-Code ausführen
